@@ -5,7 +5,7 @@ const _routes:[Router][] = [
 	//[]
 ];
 //Usar cada Ruta-Endpoint Guardado
-export const routes = (app:Application) => {
+export const useRoutes = (app:Application):void => {
 	//Pasamos por cada ruta guardada
 	_routes.forEach(route => {
 		//Obtenemos la ruta
